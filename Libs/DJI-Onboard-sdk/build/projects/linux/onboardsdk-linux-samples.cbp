@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="onboardsdk-linux-samples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\osdk-core\;CMake Files\osdk-core\cmake-modules\;CMake Files\contrib\;CMake Files\projects\;CMake Files\projects\linux\;CMake Files\projects\linux\flight-control\;CMake Files\projects\linux\squared-flight\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-flightcontrol-sample">
+				<Option output="/home/aviv-kcg/Desktop/Drone-Project/build/bin/djiosdk-flightcontrol-sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/Drone-Project/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/api/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/utility/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/hal/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/protocol/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/platform/linux/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/flight-control/../common"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/flight-control/Makefile&quot;  VERBOSE=1 djiosdk-flightcontrol-sample"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/flight-control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-flightcontrol-sample/fast">
+				<Option output="/home/aviv-kcg/Desktop/Drone-Project/build/bin/djiosdk-flightcontrol-sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/Drone-Project/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/api/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/utility/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/hal/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/protocol/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/platform/linux/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/flight-control/../common"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/flight-control/Makefile&quot;  VERBOSE=1 djiosdk-flightcontrol-sample/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/flight-control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-squared-flight">
+				<Option output="/home/aviv-kcg/Desktop/Drone-Project/build/bin/djiosdk-squared-flight" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/Drone-Project/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/api/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/utility/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/hal/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/protocol/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/platform/linux/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/squared-flight/../common"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/squared-flight/Makefile&quot;  VERBOSE=1 djiosdk-squared-flight"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/squared-flight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/squared-flight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/squared-flight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-squared-flight/fast">
+				<Option output="/home/aviv-kcg/Desktop/Drone-Project/build/bin/djiosdk-squared-flight" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/Drone-Project/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/api/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/utility/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/hal/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/protocol/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/../../osdk-core/platform/linux/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/squared-flight/../common"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/squared-flight/Makefile&quot;  VERBOSE=1 djiosdk-squared-flight/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/squared-flight/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/squared-flight/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/projects/linux/squared-flight/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/common/dji_linux_environment.cpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+			<Option target="djiosdk-squared-flight"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/common/dji_linux_environment.hpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+			<Option target="djiosdk-squared-flight"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/common/dji_linux_helpers.cpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+			<Option target="djiosdk-squared-flight"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/common/dji_linux_helpers.hpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+			<Option target="djiosdk-squared-flight"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/flight-control/flight_control_sample.cpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/flight-control/flight_control_sample.hpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/flight-control/main.cpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/squared-flight/flight_control_sample.cpp">
+			<Option target="djiosdk-squared-flight"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/squared-flight/flight_control_sample.hpp">
+			<Option target="djiosdk-squared-flight"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/squared-flight/main.cpp">
+			<Option target="djiosdk-squared-flight"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\osdk-core\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/cmake-modules/DJIOSDKConfig.cmake.in">
+			<Option virtualFolder="CMake Files\osdk-core\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/cmake-modules/DJIOSDKConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\osdk-core\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/contrib/DJIConfig.cmake">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\linux\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/flight-control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\linux\flight-control\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/squared-flight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\linux\squared-flight\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
