@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="djiosdk-core"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\osdk-core\;CMake Files\osdk-core\cmake-modules\;CMake Files\contrib\;CMake Files\projects\;CMake Files\projects\linux\;CMake Files\projects\linux\flight-control\;CMake Files\projects\linux\squared-flight\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-core">
+				<Option output="/home/aviv-kcg/Desktop/Drone-Project/build/libs/libdjiosdk-core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/protocol/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/hal/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/utility/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/platform/default/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/platform/linux/inc"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 djiosdk-core"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-core/fast">
+				<Option output="/home/aviv-kcg/Desktop/Drone-Project/build/libs/libdjiosdk-core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/protocol/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/hal/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/utility/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/platform/default/inc"/>
+					<Add directory="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/platform/linux/inc"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 djiosdk-core/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/aviv-kcg/Desktop/Drone-Project/build/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_ack.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_broadcast.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_camera.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_command.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_control.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_error.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_gimbal.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_hardware_sync.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_hotpoint.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_mfio.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_mission_manager.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_mobile_communication.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_subscription.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_vehicle.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_version.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_virtual_rc.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/api/src/dji_waypoint.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/hal/src/dji_hard_driver.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/hal/src/dji_log.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/hal/src/dji_memory.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/hal/src/dji_platform_manager.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/hal/src/dji_thread_manager.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/platform/default/src/dji_memory_default.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/platform/linux/src/linux_serial_device.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/platform/linux/src/posix_thread.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/platform/linux/src/posix_thread_manager.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/protocol/src/dji_aes.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/protocol/src/dji_open_protocol.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/protocol/src/dji_protocol_base.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/utility/src/dji_circular_buffer.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/utility/src/dji_singleton.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\osdk-core\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/cmake-modules/DJIOSDKConfig.cmake.in">
+			<Option virtualFolder="CMake Files\osdk-core\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/osdk-core/cmake-modules/DJIOSDKConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\osdk-core\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/contrib/DJIConfig.cmake">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\linux\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/flight-control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\linux\flight-control\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/Drone-Project/projects/linux/squared-flight/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\projects\linux\squared-flight\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
