@@ -1,0 +1,1989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Realsense"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\examples\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;CMake Files\unit-tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="realsense">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/librealsense.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 realsense"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="realsense/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/librealsense.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 realsense/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-enumerate-devices">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-enumerate-devices" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-enumerate-devices"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-enumerate-devices/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-enumerate-devices" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-enumerate-devices/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-pointcloud">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-pointcloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-pointcloud"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-pointcloud/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-pointcloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-pointcloud/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-tutorial-3-pointcloud">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-tutorial-3-pointcloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-tutorial-3-pointcloud"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-tutorial-3-pointcloud/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-tutorial-3-pointcloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-tutorial-3-pointcloud/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c-tutorial-3-pointcloud">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/c-tutorial-3-pointcloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 c-tutorial-3-pointcloud"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c-tutorial-3-pointcloud/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/c-tutorial-3-pointcloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 c-tutorial-3-pointcloud/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-alignimages">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-alignimages" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-alignimages"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-alignimages/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-alignimages" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-alignimages/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c-tutorial-1-depth">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/c-tutorial-1-depth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 c-tutorial-1-depth"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c-tutorial-1-depth/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/c-tutorial-1-depth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 c-tutorial-1-depth/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-callback-2">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-callback-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-callback-2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-callback-2/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-callback-2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-callback-2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-stride">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-stride" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-stride"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-stride/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-stride" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-stride/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c-tutorial-2-streams">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/c-tutorial-2-streams" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 c-tutorial-2-streams"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c-tutorial-2-streams/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/c-tutorial-2-streams" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 c-tutorial-2-streams/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-tutorial-2-streams">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-tutorial-2-streams" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-tutorial-2-streams"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-tutorial-2-streams/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-tutorial-2-streams" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-tutorial-2-streams/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-tutorial-1-depth">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-tutorial-1-depth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-tutorial-1-depth"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-tutorial-1-depth/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-tutorial-1-depth" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-tutorial-1-depth/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-config-ui">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-config-ui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-config-ui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-config-ui/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-config-ui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-config-ui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-capture">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-capture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-capture"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-capture/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-capture" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-capture/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="livedetection">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/livedetection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 livedetection"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="livedetection/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/livedetection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 livedetection/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="depthdetection">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/depthdetection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 depthdetection"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="depthdetection/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/depthdetection" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 depthdetection/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mypointcloud">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/mypointcloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 mypointcloud"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mypointcloud/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/mypointcloud" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 mypointcloud/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testOpenCV">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/testOpenCV" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 testOpenCV"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testOpenCV/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/testOpenCV" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 testOpenCV/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-headless">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-headless" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-headless"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-headless/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-headless" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-headless/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-callback">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-callback" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-callback"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-callback/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-callback" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-callback/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-motion-module">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-motion-module" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-motion-module"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-motion-module/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-motion-module" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-motion-module/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-multicam">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-multicam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-multicam"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-multicam/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-multicam" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-multicam/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-restart">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-restart" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-restart"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cpp-restart/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/cpp-restart" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 cpp-restart/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SR300-live-test">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/SR300-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 SR300-live-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SR300-live-test/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/SR300-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 SR300-live-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="R200-live-test">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/R200-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 R200-live-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="R200-live-test/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/R200-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 R200-live-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F200-live-test">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/F200-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 F200-live-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F200-live-test/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/F200-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 F200-live-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZR300-live-test">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/ZR300-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 ZR300-live-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ZR300-live-test/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/ZR300-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 ZR300-live-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="offline-test">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/offline-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 offline-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="offline-test/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/offline-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 offline-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LR200-live-test">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/LR200-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 LR200-live-test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LR200-live-test/fast">
+				<Option output="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/LR200-live-test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRS_USE_V4L2_BACKEND"/>
+					<Add option="-DUNICODE"/>
+					<Add directory="/usr/include/libusb-1.0"/>
+					<Add directory="/home/aviv-kcg/Desktop/librealsense-1.12.1/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 LR200-live-test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-1-depth.c">
+			<Option target="c-tutorial-1-depth"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-2-streams.c">
+			<Option target="c-tutorial-2-streams"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-3-pointcloud.c">
+			<Option target="c-tutorial-3-pointcloud"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-alignimages.cpp">
+			<Option target="cpp-alignimages"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-callback-2.cpp">
+			<Option target="cpp-callback-2"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-callback.cpp">
+			<Option target="cpp-callback"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-capture.cpp">
+			<Option target="cpp-capture"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-config-ui.cpp">
+			<Option target="cpp-config-ui"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-enumerate-devices.cpp">
+			<Option target="cpp-enumerate-devices"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-headless.cpp">
+			<Option target="cpp-headless"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-motion-module.cpp">
+			<Option target="cpp-motion-module"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-multicam.cpp">
+			<Option target="cpp-multicam"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-pointcloud.cpp">
+			<Option target="cpp-pointcloud"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-restart.cpp">
+			<Option target="cpp-restart"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-stride.cpp">
+			<Option target="cpp-stride"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-1-depth.cpp">
+			<Option target="cpp-tutorial-1-depth"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-2-streams.cpp">
+			<Option target="cpp-tutorial-2-streams"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-3-pointcloud.cpp">
+			<Option target="cpp-tutorial-3-pointcloud"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/depthdetection.cpp">
+			<Option target="depthdetection"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/livedetection.cpp">
+			<Option target="livedetection"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/mypointcloud.cpp">
+			<Option target="mypointcloud"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/testOpenCV.cpp">
+			<Option target="testOpenCV"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/archive.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/archive.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/context.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/context.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/device.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/device.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ds-device.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ds-device.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ds-private.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ds-private.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/f200.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/f200.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/hw-monitor.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/hw-monitor.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/image.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/image.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ivcam-device.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ivcam-device.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ivcam-private.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ivcam-private.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/ctrl.c">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/dev.c">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/diag.c">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/frame.c">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/init.c">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/libuvc.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/libuvc_config.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/libuvc_internal.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/stream.c">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/utlist.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/log.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/motion-module.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/motion-module.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/r200.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/r200.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/rs.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/sr300.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/sr300.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/stream.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/stream.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/sync.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/sync.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/timestamps.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/timestamps.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/types.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/types.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-libuvc.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-v4l2.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-wmf.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/verify.c">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/zr300.cpp">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/src/zr300.h">
+			<Option target="realsense"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-ds-common.cpp">
+			<Option target="R200-live-test"/>
+			<Option target="ZR300-live-test"/>
+			<Option target="LR200-live-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-ds-common.h">
+			<Option target="R200-live-test"/>
+			<Option target="ZR300-live-test"/>
+			<Option target="LR200-live-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-f200.cpp">
+			<Option target="F200-live-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-lr200.cpp">
+			<Option target="LR200-live-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-r200.cpp">
+			<Option target="R200-live-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-sr300.cpp">
+			<Option target="SR300-live-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-zr300.cpp">
+			<Option target="ZR300-live-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp">
+			<Option target="SR300-live-test"/>
+			<Option target="R200-live-test"/>
+			<Option target="F200-live-test"/>
+			<Option target="ZR300-live-test"/>
+			<Option target="LR200-live-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-offline.cpp">
+			<Option target="offline-test"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/cmake_uninstall.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\unit-tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
