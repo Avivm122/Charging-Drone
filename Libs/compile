@@ -1,0 +1,9 @@
+#!/bin/bash  
+
+echo "Compiling sdk"
+mkdir build
+cd build
+cmake ..
+make
+echo "Done"
+
