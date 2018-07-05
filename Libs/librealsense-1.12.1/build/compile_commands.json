@@ -1,0 +1,337 @@
+[
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/archive.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/archive.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/archive.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/context.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/context.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/context.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/device.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/device.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/device.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/ds-device.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/ds-device.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ds-device.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/ds-private.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/ds-private.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ds-private.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/f200.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/f200.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/f200.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/hw-monitor.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/hw-monitor.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/hw-monitor.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/image.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/image.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/image.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/ivcam-private.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/ivcam-private.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ivcam-private.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/ivcam-device.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/ivcam-device.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/ivcam-device.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/log.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/log.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/log.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/motion-module.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/motion-module.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/motion-module.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/r200.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/r200.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/r200.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/rs.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/rs.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/rs.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/sr300.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/sr300.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/sr300.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/stream.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/stream.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/stream.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/sync.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/sync.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/sync.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/timestamps.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/timestamps.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/timestamps.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/types.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/types.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/types.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/uvc-libuvc.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-libuvc.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-libuvc.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/uvc-v4l2.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-v4l2.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-v4l2.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/uvc-wmf.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-wmf.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc-wmf.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/uvc.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/uvc.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/verify.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/verify.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/verify.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/zr300.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/zr300.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/zr300.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/libuvc/ctrl.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/ctrl.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/ctrl.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/libuvc/dev.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/dev.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/dev.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/libuvc/diag.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/diag.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/diag.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/libuvc/frame.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/frame.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/frame.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/libuvc/init.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/init.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/init.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -Drealsense_EXPORTS -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g -fPIC   -o CMakeFiles/realsense.dir/src/libuvc/stream.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/stream.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/src/libuvc/stream.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-enumerate-devices.dir/cpp-enumerate-devices.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-enumerate-devices.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-enumerate-devices.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-pointcloud.dir/cpp-pointcloud.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-pointcloud.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-pointcloud.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-tutorial-3-pointcloud.dir/cpp-tutorial-3-pointcloud.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-3-pointcloud.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-3-pointcloud.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g   -o CMakeFiles/c-tutorial-3-pointcloud.dir/c-tutorial-3-pointcloud.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-3-pointcloud.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-3-pointcloud.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-alignimages.dir/cpp-alignimages.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-alignimages.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-alignimages.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g   -o CMakeFiles/c-tutorial-1-depth.dir/c-tutorial-1-depth.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-1-depth.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-1-depth.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-callback-2.dir/cpp-callback-2.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-callback-2.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-callback-2.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-stride.dir/cpp-stride.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-stride.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-stride.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/cc -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c11   -fPIC -pedantic -g -D_BSD_SOURCE   -mssse3 -g   -o CMakeFiles/c-tutorial-2-streams.dir/c-tutorial-2-streams.c.o   -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-2-streams.c",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/c-tutorial-2-streams.c"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-tutorial-2-streams.dir/cpp-tutorial-2-streams.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-2-streams.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-2-streams.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-tutorial-1-depth.dir/cpp-tutorial-1-depth.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-1-depth.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-tutorial-1-depth.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-config-ui.dir/cpp-config-ui.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-config-ui.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-config-ui.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-capture.dir/cpp-capture.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-capture.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-capture.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/livedetection.dir/livedetection.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/livedetection.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/livedetection.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/depthdetection.dir/depthdetection.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/depthdetection.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/depthdetection.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/mypointcloud.dir/mypointcloud.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/mypointcloud.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/mypointcloud.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/testOpenCV.dir/testOpenCV.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/testOpenCV.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/testOpenCV.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-headless.dir/cpp-headless.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-headless.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-headless.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-callback.dir/cpp-callback.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-callback.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-callback.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-motion-module.dir/cpp-motion-module.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-motion-module.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-motion-module.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-multicam.dir/cpp-multicam.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-multicam.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-multicam.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/examples",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/usr/include/opencv -I/usr/local/include -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/cpp-restart.dir/cpp-restart.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-restart.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/examples/cpp-restart.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/SR300-live-test.dir/unit-tests-live.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/SR300-live-test.dir/unit-tests-live-sr300.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-sr300.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-sr300.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/R200-live-test.dir/unit-tests-live.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/R200-live-test.dir/unit-tests-live-ds-common.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-ds-common.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-ds-common.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/R200-live-test.dir/unit-tests-live-r200.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-r200.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-r200.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/F200-live-test.dir/unit-tests-live.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/F200-live-test.dir/unit-tests-live-f200.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-f200.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-f200.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/ZR300-live-test.dir/unit-tests-live.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/ZR300-live-test.dir/unit-tests-live-ds-common.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-ds-common.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-ds-common.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/ZR300-live-test.dir/unit-tests-live-zr300.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-zr300.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-zr300.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/offline-test.dir/unit-tests-offline.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-offline.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-offline.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/LR200-live-test.dir/unit-tests-live.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/LR200-live-test.dir/unit-tests-live-ds-common.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-ds-common.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-ds-common.cpp"
+},
+{
+  "directory": "/home/aviv-kcg/Desktop/librealsense-1.12.1/build/unit-tests",
+  "command": "/usr/bin/c++  -DRS_USE_V4L2_BACKEND -DUNICODE -isystem /usr/include/libusb-1.0 -I/home/aviv-kcg/Desktop/librealsense-1.12.1/include   -std=c++11 -fPIC -pedantic -g -Ofast -Wno-missing-field-initializers -Wno-switch -Wno-multichar -mssse3 -std=c++11 -g   -o CMakeFiles/LR200-live-test.dir/unit-tests-live-lr200.cpp.o -c /home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-lr200.cpp",
+  "file": "/home/aviv-kcg/Desktop/librealsense-1.12.1/unit-tests/unit-tests-live-lr200.cpp"
+}
+]
